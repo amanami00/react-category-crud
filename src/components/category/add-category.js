@@ -1,4 +1,13 @@
 import React, { Component, PropTypes } from 'react';
+import {
+        Modal,
+        ModalHeader,
+        ModalTitle,
+        ModalClose,
+        ModalBody,
+        ModalFooter
+    } from 'react-modal-bootstrap';
+
 import { reset } from 'src/actions/category-modal';
 import { updateCategoryField } from 'src/actions/category-editor';
 import { validateAndSaveCategory } from 'src/actions/validate-and-save-category';
